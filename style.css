@@ -4,12 +4,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  color: aliceblue;
+  height: 90vh;
+  color: pink;
   background: linear-gradient(to right, #ef32d9, #89fffd);
 }
 
-div{
+.card{
   border: 4px solid #bb80f3;
   padding: 15px;
   box-shadow: 8px 8px blueviolet;
@@ -20,4 +20,43 @@ img{
   height: 100px;
   width: 100px;
   border-radius: 50%;
+}
+
+.my_socials{
+  padding: 17px 0px;
+}
+
+#first_name{
+  color: rgba(228, 15, 192, 0.589);
+}
+
+#last_name{
+  color: rgba(228, 15, 192, 0.589);
+}
+
+.header_row li
+{
+  display: inline-block;
+  margin-top: 2px;
+  padding: 17px 0px;
+}
+
+.header_row li a
+{
+  color:aliceblue;
+  text-decoration: none;
+  padding: 10px 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:20px;
+}
+
+.header_row li.row a
+{
+	border-bottom: 1px solid aliceblue;
+}
+
+.header_row li a:hover
+{
+  border-bottom: 1px solid aliceblue;
+  line-height: 0.5;
 }

@@ -9,23 +9,40 @@
 	<!-- ^ your webpage's title -->
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<!-- ^ where we link our CSS file to our webpage -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 
 <body>
+	<header>
+		<div class = "header_row">
+		  <ul class="tabs">
+			<li class="tab"><a href="index.html"> Home </a></li>
+			<li><a href="about.html"> About </a></li>
+			<li><a href="about.html"> Experience </a></li>
+			<li><a href="about.html"> Projects </a></li>
+			<li><a href="about.html"> Photography </a></li>
+			<li><a href="about.html"> Contact </a></li>
+		  </ul>
+		</div>
 
-  <div>
-  <img src="BitMoji_Computer.jpg" />
-  <h1>C I N D Y</h1>
-  <h1>W A N G</h1>
-  <h3> Hi there! </h3>
-  <p> I'm a student, photographer, and developer. </p>
-  <a href = "about.html"> About Me </a>
+		<div class = "card">
+			<img src="BitMoji_Computer.jpg" />
+			<h1>C I N D Y</h1>
+			<h1>W A N G</h1>
+			<h3> Hi there! 👋</h3>
+			<p> I'm a student, photographer, and developer. </p>
+			<a href = "about.html"> About Me </a>
+			<div class = "my_socials">
+				<a href="mailto:wangci@umich.edu"><i class="fas fa-envelope-square fa-2x"></i></a>
+				<a href="https://github.com/cw1768"><i class="fab fa-github-square fa-2x"></i></a>
+				<a href="https://linkedin.com/in/cindy-wang-546800187/"><i class="fab fa-linkedin fa-2x"></i></a>
+			</div>
+		</div>
 
-  </div>
-
-	<script src="script.js">
-	</script>
+		<script src="script.js">
+		</script>
 	<!-- ^ where we link our JS file to our webpage (we don't need to worry about this for now!) -->
+	</header>
 </body>
 
 </html>
