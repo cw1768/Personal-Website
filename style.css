@@ -18,6 +18,16 @@ body {
   border-radius: 5px;
 }
 
+.about{
+  height: 400px;
+  width: 500px;
+  border: 4px solid #bb80f3;
+  padding: 15px;
+  box-shadow: 8px 8px blueviolet;
+  border-radius: 5px;
+  background: rgb(231, 145, 210);
+}
+
 img{
   height: 100px;
   width: 100px;
@@ -25,7 +35,7 @@ img{
 }
 
 .my_socials{
-  padding: 17px 0px;
+  padding: 4px 0px;
 }
 
 #first_name{
@@ -34,6 +44,14 @@ img{
 
 #last_name{
   color: rgba(228, 15, 192, 0.589);
+}
+
+#about_me{
+  color: rgba(228, 15, 192, 0.589);
+}
+
+#made_with{
+  color: #8018e2;
 }
 
 .header_row li
@@ -61,4 +79,14 @@ img{
 {
   border-bottom: 1px solid aliceblue;
   line-height: 0.5;
+}
+
+.rows {
+	display: flex;
+	padding-top: 3%;
+}
+
+.column {
+	flex: 33.33%;
+	padding: 5px;
 }
