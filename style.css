@@ -1,15 +1,13 @@
 body { 
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
-  color: pink;
-  background: linear-gradient(to right, #ef32d9, #89fffd);
+  font-family: "Lato", sans-serif;	
+  margin: 0px;	
+  height: 90vh;	
+  color: pink;	
+  background: linear-gradient(to right, #ef32d9, #89fffd);	
 }
 
 .card{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   height: 400px;
   width: 500px;
   border: 4px solid #bb80f3;
@@ -19,6 +17,7 @@ body {
 }
 
 .about{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   height: 400px;
   width: 500px;
   border: 4px solid #bb80f3;
@@ -54,39 +53,60 @@ img{
   color: #8018e2;
 }
 
-.header_row li
-{
-  display: inline-block;
-  margin-top: 2px;
-  padding: 17px 0px;
-}
-
-.header_row li a
-{
-  color:aliceblue;
-  text-decoration: none;
-  padding: 10px 40px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size:20px;
-}
-
-.header_row li.row a
-{
-	border-bottom: 1px solid aliceblue;
-}
-
-.header_row li a:hover
-{
-  border-bottom: 1px solid aliceblue;
-  line-height: 0.5;
-}
-
-.rows {
-	display: flex;
-	padding-top: 3%;
-}
-
-.column {
-	flex: 33.33%;
-	padding: 5px;
+.rows {	
+	display: flex;	
+	/* padding-top: 1%; */	
+}	
+.column {	
+	flex: 33.33%;	
+	padding: 5px;	
+  text-align: center;	
+  display: flex;	
+  justify-content: center;	
+  align-items: center; 	
+}	
+.container {	
+  display: grid;	
+  grid-template-columns: 1fr;	
+}	
+.nav-wrapper {	
+  display: flex;	
+  justify-content: space-between;	
+  padding: 38px;	
+}	
+.left-side {	
+  display: flex;	
+}	
+.nav-wrapper > .left-side > div {	
+  margin-right: 20px;	
+  text-transform: uppercase;	
+  font-size: 0.9rem;	
+}	
+.nav-link-wrapper {	
+  height: 22px;	
+  border-bottom: 1px solid transparent;	
+  transition: border-bottom 0.5s;	
+}	
+.active-nav-link {	
+  border-bottom: 1px solid #8a8a8a;	
+}	
+.active-nav-link a {	
+  color: #8a8a8a !important;	
+}	
+.nav-link-wrapper a {	
+  color: aliceblue;	
+  text-decoration: none;	
+  transition: color 0.5s;	
+}	
+.nav-link-wrapper:hover {	
+  border-bottom: 1px solid #8a8a8a;	
+}	
+.nav-link-wrapper a:hover {	
+  color: #8a8a8a;	
+}	
+.brand{	
+  color: aliceblue;	
+}	
+#github{	
+  color: black;	
 }
