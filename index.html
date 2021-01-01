@@ -10,49 +10,67 @@
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<!-- ^ where we link our CSS file to our webpage -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body>
-	<header>
-		<div class = "header_row">
-		  <ul class="tabs">
-			<li class="tab"><a href="index.html"> Home 🏠 </a></li>
-			<li><a href="about.html"> Experience 💼 </a></li>
-			<li><a href="about.html"> Projects 💻 </a></li>
-			<li><a href="photography.html"> Photography 📸 </a></li>
-			<li><a href="about.html"> Contact 📝 </a></li>
-		  </ul>
-		</div>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="index.html">Home 🏠</a>
+        </div>
 
-		<div class="rows">
-			<div class="column">
-			<div class = "card">
-			  <img src="BitMoji_Computer.jpg" />
-			  <h1 id = "first_name">C I N D Y</h1>
-			  <h1 id = "last_name">W A N G</h1>
-			  <h3> Hi there! 👋</h3>
-			  <p> I'm a student, photographer, and developer. </p>
-			  <div class = "my_socials">
-				<a href="mailto:wangci@umich.edu"><i class="fas fa-envelope-square fa-2x"></i></a>
-				<a href="https://github.com/cw1768"><i class="fab fa-github-square fa-2x"></i></a>
-				<a href="https://linkedin.com/in/cindy-wang-546800187/"><i class="fab fa-linkedin fa-2x"></i></a>
-			  </div>
-			  <h6 id = "made_with"> ~ made with HTML, CSS, JavaScript, and a dash of imagination ~ </h6>
-			</div>
-			</div>
-			<div class="column">
-			<div class = "about">
-			  <h2 id = "about_me">About Me</h2>
-			  <h4>Welcome! My name is Cindy, and I am a student at the University of Michigan studying Business Administration and Computer Science. Nutrition labels, Jeopardy clues, coding... these everyday resources and activities have made me keenly aware of my detail-oriented nature. As an analytical person, I thrive on searching for the seemingly minute details that are often overlooked by most. Since a young age, I have been trained to always scan for missed details and appreciate how impactful they can be when solving problems. My professional interests lie in exploring the intersection of business and technology. Most importantly, what draws me to these two fields is their capacity to utilize my critical thinking skills while driving impact. Up to date, I have 4+ years of programming under my belt and experience in data analytics, financial fundamental analysis, stock pitching, pro-bono consulting, and project management.</h4>
-			  <h4>In my free time, I enjoy photography, Jeopardy/trivia, cooking, collecting quarters, reading, and playing piano & flute. </h4>
-			</div>
-			</div>
-		  </div>
+        <div class="nav-link-wrapper">
+          <a href="experience.html">Experience 💼</a>
+        </div>
 
-		<script src="script.js">
-		</script>
-	<!-- ^ where we link our JS file to our webpage (we don't need to worry about this for now!) -->
-	</header>
+        <div class="nav-link-wrapper">
+          <a href="projects.html">Projects 💻</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="photography.html">Photography 📸</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="contact.html">Contact 📝</a>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="brand">
+          CINDY WANG
+        </div>
+      </div>
+    </div>
+
+    <div class="rows">
+      <div class="column">
+        <div class = "card">
+          <img src="images/BitMoji_Computer.jpg" />
+          <h1 id = "first_name">C I N D Y</h1>
+          <h1 id = "last_name">W A N G</h1>
+          <h3> Hi there! 👋</h3>
+          <p> I'm a student, photographer, and developer. </p>
+          <div class = "my_socials">
+            <a href="mailto:wangci@umich.edu"><i class="fas fa-envelope-square fa-2x"></i></a>
+            <a id = "github" href="https://github.com/cw1768"><i class="fab fa-github-square fa-2x"></i></a>
+            <a href="https://linkedin.com/in/cindy-wang-546800187/"><i class="fab fa-linkedin fa-2x"></i></a>
+          </div>
+          <h6 id = "made_with"> ~ made with HTML, CSS, JavaScript, and a dash of imagination ~ </h6>
+        </div>
+      </div>
+      <div class="column">
+        <div class = "about">
+          <h2 id = "about_me">About Me</h2>
+          <h4>Welcome! My name is Cindy, and I am a student at the University of Michigan studying Business Administration and Computer Science. Nutrition labels, Jeopardy clues, coding... these everyday resources and activities have made me keenly aware of my detail-oriented nature. As an analytical person, I thrive on searching for the seemingly minute details that are often overlooked by most. Since a young age, I have been trained to always scan for missed details and appreciate how impactful they can be when solving problems. My professional interests lie in exploring the intersection of business and technology. Most importantly, what draws me to these two fields is their capacity to utilize my critical thinking skills while driving impact. Up to date, I have 4+ years of programming under my belt and experience in data analytics, financial fundamental analysis, stock pitching, pro-bono consulting, and project management.</h4>
+          <h4>In my free time, I enjoy photography, Jeopardy/trivia, cooking, collecting quarters, reading, and playing piano & flute. </h4>
+        </div>
+	    </div>
+
+      
+    </div> 
 </body>
 
 </html>

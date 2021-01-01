@@ -1,52 +1,236 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<!-- ^ the viewport meta tag is to make your webpage responsive according to screen size -->
-	<title>Cindy Wang</title>
-	<!-- ^ your webpage's title -->
-	<link href="photography_style.css" rel="stylesheet" type="text/css" />
-	<!-- ^ where we link our CSS file to our webpage -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-</head>
-
-<body>
-  <header>
-  <div class = "header_row">
-    <ul class="tabs">
-      <li class="tab"><a href="index.html"> Home 🏠</a></li>
-      <li><a href="about.html"> Experience 💼 </a></li>
-      <li><a href="about.html"> Projects 💻 </a></li>
-      <li><a href="photography.html"> Photography 📸 </a></li>
-      <li><a href="about.html"> Contact 📝 </a></li>
-    </ul>
-  </div>
-  
-  <div class = "card">
-    <h4>On the side, I am an ardent photography enthusiast. I love documenting special moments in wildlife, both flora and fauna, into memories to keep forever. There is nothing like capturing a bliss moment of tranquility, intimacy, or innocence. Photography challenges me to be more inquisitive and explore the world around me. Especially during quarantine, taking in these sights helped me destress after a long day of staring at a computer screen and remain grateful for the small things in life. Whether it is the insatiable desire to learn more about something that caught my eye or noticing the hidden beauty behind a subject for the first time, I believe that these lessons apply on a much deeper level beyond just the quick click of a camera. Furthermore, my favorite pastime has taught me the importance of patience yet also spontaneity, channeling my inner creativity, and viewing a siutation from many different perspectives. Here, you can find a sample with some of my shots. Enjoy!
-    <h4>
-  </div>
-
-  <div class="rows">
-	  <div class="column">
-		<img src="Two_Cranes_Wings.jpeg"; style = "width:100%; padding-top: 10px">
-		<img src="Flying_Duck.jpg" style="width:100%; padding-top: 10px;">
-	    <img src="Moon.JPG" style="width:100%; padding-top: 10px;">
-	  </div>
-	  <div class="column">
-		<img src="Two_Geese.jpg" style="width:100%; padding-top: 10px; ">
-		<img src="Ducks_Jumping.JPG" style="width:100%; padding-top: 10px">
-		<img src="Blurry_Red_Flowers.jpg" style="width:100%; padding-top: 10px;">
-	  </div>
-	</div>
-
-
-	<script src="script.js">
-	</script>
-	<!-- ^ where we link our JS file to our webpage (we don't need to worry about this for now!) -->
-  </header>
-</body>
-
-</html>
+	<head>
+		<meta charset='UTF-8'>
+		<title>Photography</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link rel="stylesheet" href="photography_style.css">
+	  </head>
+	  
+	  <body>
+		<div class="container">
+		  <div class="nav-wrapper">
+			<div class="left-side">
+			  <div class="nav-link-wrapper">
+				<a href="index.html">Home 🏠</a>
+			  </div>
+	  
+			  <div class="nav-link-wrapper">
+				<a href="about.html">Experience 💼</a>
+			  </div>
+	  
+			  <div class="nav-link-wrapper">
+				<a href="about.html">Projects 💻</a>
+			  </div>
+	  
+			  <div class="nav-link-wrapper active-nav-link">
+				<a href="index.html">Photography 📸</a>
+			  </div>
+	  
+			  <div class="nav-link-wrapper">
+				<a href="about.html">Contact 📝</a>
+			  </div>
+			</div>
+	  
+			<div class="right-side">
+			  <div class="brand">
+				CINDY WANG
+			  </div>
+			</div>
+		  </div>
+	  
+		  <div class = "card">
+			<h4>On the side, I am an ardent photography enthusiast. I love documenting special moments in wildlife, both flora and fauna, into memories to keep forever. There is nothing like capturing a bliss moment of tranquility, intimacy, or innocence. Photography challenges me to be more inquisitive and explore the world around me. Especially during quarantine, taking in these sights helped me destress after a long day of staring at a computer screen and remain grateful for the small things in life. Whether it is the insatiable desire to learn more about something that caught my eye or noticing the hidden beauty behind a subject for the first time, I believe that these lessons apply on a much deeper level beyond just the quick click of a camera. Furthermore, my favorite pastime has taught me the importance of patience yet also spontaneity, channeling my inner creativity, and viewing a situation from many different perspectives. Here, you can find a sample with some of my shots. Enjoy!
+			<h4>
+		  </div>
+	  
+		  <div class="content-wrapper">
+			<div class="portfolio-items-wrapper">
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Blurry_Bee.jpg)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src="images/Blurry_Bee.jpg" loading = "lazy"  alt="">
+				  </div>
+	  
+				  <div class="subtitle">Honey Bee | July 14th, 2020</div>
+				</div>
+			  </div>
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Two_Geese.jpg)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src="images/Two_Geese.jpg" loading = "lazy" alt="">
+				  </div>
+	  
+				  <div class="subtitle">Pair of Geese | July 21st, 2020</div>
+				</div>
+			  </div>
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Two_Cranes_Wings.jpeg)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src="images/Two_Cranes_Wings.jpeg" loading = "lazy" alt="">
+				  </div>
+	  
+				  <div class="subtitle">Pair of Cranes | May 31st, 2020</div>
+				</div>
+			  </div>
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Blurry_Red_Flowers.jpg)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src="images/Blurry_Red_Flowers.jpg" loading = "lazy" alt="">
+				  </div>
+	  
+				  <div class="subtitle">Red Flowers | July 14th, 2020</div>
+				</div>
+			  </div>
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Purple_Flower.jpg)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src="images/Purple_Flower.jpg" loading = "lazy" alt="">
+				  </div>
+	  
+				  <div class="subtitle">Purple Flower | May 11th, 2020</div>
+				</div>
+			  </div>
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Beaver_2.jpg)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src="images/Beaver_2.jpg" loading = "lazy" alt="">
+				  </div>
+	  
+				  <div class="subtitle">Gliding Beaver | June 2nd, 2020</div>
+				</div>
+			  </div>
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Flying_Duck.jpg)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src="images/Flying_Duck.jpg" loading = "lazy"  alt="">
+				  </div>
+	  
+				  <div class="subtitle">Flying Duck | May 30th, 2020</div>
+				</div>
+			  </div>
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Pink_Flowers_Row.jpg)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src="images/Pink_Flowers_Row.jpg" loading = "lazy" alt="">
+				  </div>
+	  
+				  <div class="subtitle">Pink Flowers | June 2nd, 2020</div>
+				</div>
+			  </div>
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Small_Purple_Flowers.jpg)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src="images/Small_Purple_Flowers.jpg" loading = "lazy" alt="">
+				  </div>
+	  
+				  <div class="subtitle">Purple Flowers | May 31st, 2020</div>
+				</div>
+			  </div>
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Turkey_2.jpg)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src="images/Turkey_2.jpg" loading = "lazy" alt="">
+				  </div>
+	  
+				  <div class="subtitle">Turkey | July 8th, 2020</div>
+				</div>
+			  </div>
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Single_Crane_2.jpg)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src="images/Single_Crane_2.jpg" loading = "lazy" alt="">
+				  </div>
+	  
+				  <div class="subtitle">Crane Catwalk | June 30th, 2020</div>
+				</div>
+			  </div>
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Sunset.jpg)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src = "images/Sunset.jpg" loading = "lazy" alt="">
+				  </div>
+	  
+				  <div class="subtitle">Parking Lot Sunset | June 4th, 2020</div>
+				</div>
+			  </div>
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Fuzzy_Plant.JPG)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src="images/Fuzzy_Plant.JPG" loading = "lazy" alt="">
+				  </div>
+	  
+				  <div class="subtitle">Fuzzy Plant | June 2nd, 2018</div>
+				</div>
+			  </div>
+	  
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Ducks_Jumping.jpg)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src="images/Ducks_Jumping.jpg" alt="">
+				  </div>
+	  
+				  <div class="subtitle">Jumping Ducks | June 4th, 2020</div>
+				</div>
+			  </div>
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Duck_Family.jpg)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src="images/Duck_Family.jpg" alt="">
+				  </div>
+	  
+				  <div class="subtitle">Duck Family | June 3rd, 2020</div>
+				</div>
+			  </div>
+	  
+			  <div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(images/Turtle.jpg)"></div>
+				<div class="img-text-wrapper">
+				  <div class="logo-wrapper">
+					<img src="images/Turtle.jpg" alt="">
+				  </div>
+	  
+				  <div class="subtitle">Painted Turtle | May 25th, 2020</div>
+				</div>
+			  </div>
+	  
+			</div>
+		  </div>
+		</div>
+	  </body>
+	  
+	  <script src="script.js">
+	  </script>
+	  
+	  </html>
