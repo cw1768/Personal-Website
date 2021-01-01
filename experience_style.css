@@ -1,0 +1,74 @@
+body { 
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+  color: #8a8a8a;
+  background: linear-gradient(to right, #ef32d9, #89fffd);
+  /* text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;  */
+}
+
+.resume{
+  padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+  padding-bottom: 2%;
+  height: 1900px;
+  background: whitesmoke;
+  margin: auto;
+  text-align: left;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid #8a8a8a;
+}
+
+.active-nav-link a {
+  color: #8a8a8a !important;
+}
+
+.nav-link-wrapper a {
+  color: aliceblue;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid #8a8a8a;
+}
+
+.nav-link-wrapper a:hover {
+  color: #8a8a8a;
+}
+
+.brand{
+  color: aliceblue;
+}
