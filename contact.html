@@ -10,45 +10,58 @@
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<!-- ^ where we link our CSS file to our webpage -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-  <div class = "header_row">
-    <ul class="tabs">
-      <li class="tab"><a href="index.html"> Home 🏠 </a></li>
-      <li><a href="about.html"> Experience 💼 </a></li>
-      <li><a href="about.html"> Projects 💻 </a></li>
-      <li><a href="photography.html"> Photography 📸 </a></li>
-      <li><a href="contact.html"> Contact 📝 </a></li>
-    </ul>
-  </div>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="index.html">Home 🏠</a>
+        </div>
 
-<div class="rows">
-	  <div class="column">
-      <div class = "card">
-        <h1>Send me something!</h1>
-        <!-- form below -->
-        <form name="contact" netlify>
-        <input class="form" type="text" id="name" name="name" placeholder="Your name..">
-        <br />
-        <input class="form" type="text" id="email" name="email" placeholder="Your email..">
-        <br />
-        <textarea class="form" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        <br />
-        <button class="form" type="submit">Send</button>
-        </form>
+        <div class="nav-link-wrapper">
+          <a href="experience.html">Experience 💼</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="projects.html">Projects 💻</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="photography.html">Photography 📸</a>
+        </div>
+
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="contact.html">Contact 📝</a>
+        </div>
       </div>
-	  </div>
-	  <div class="column">
-      <div class = "about">
-        <h2 id = "about_me">About Me</h2>
-        <h4>Welcome! My name is Cindy, and I am a student at the University of Michigan studying Business Administration and Computer Science. Nutrition labels, Jeopardy clues, coding... these everyday resources and activities have made me keenly aware of my detail-oriented nature. As an analytical person, I thrive on searching for the seemingly minute details that are often overlooked by most. Since a young age, I have been trained to always scan for missed details and appreciate how impactful they can be when solving problems. My professional interests lie in exploring the intersection of business and technology. Most importantly, what draws me to these two fields is their capacity to utilize my critical thinking skills while driving impact. Up to date, I have 4+ years of programming under my belt and experience in data analytics, financial fundamental analysis, stock pitching, pro-bono consulting, and project management.</h4>
-        <h4>In my free time, I enjoy photography, Jeopardy/trivia, cooking, collecting quarters, reading, and playing piano & flute. </h4>
+
+      <div class="right-side">
+        <div class="brand">
+          CINDY WANG
+        </div>
       </div>
-	  </div>
-	</div>
-  </header>
+    </div>
+
+    <h1 id = "title">Send me something!</h1>
+    <h5 id = "message">I enjoy meeting new people and would love to hear your story and any thoughts. Feel free to reach out below:</h5>
+
+  <div class="contact">
+    <!-- form below -->
+    <form name="contact" netlify>
+    <input class="form" type="text" id="name" name="name" placeholder="Your name: ">
+    <br />
+    <input class="form" type="text" id="email" name="email" placeholder="Your email: ">
+    <br />
+    <textarea class="form" id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+    <br />
+    <button class="form" type="submit">Send</button>
+    </form>
+  </div>
+      
+    </div> 
 </body>
 
 </html>
